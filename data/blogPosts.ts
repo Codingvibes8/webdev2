@@ -7,7 +7,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Learn how to set up your first Next.js 15 project with App Router and TypeScript.',
     date: '2023-05-15',
     author: 'Jane Doe',
-    slug: 'getting-started-nextjs-13'
+    slug: 'getting-started-nextjs-15',
+    content: ' Dive deep into Next.js 15 and discover the latest features and improvements.',
   },
   {
     id: '2',
@@ -15,7 +16,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Dive deep into Prisma and learn how to manage your database.',
     date: '2023-05-20',
     author: 'John Smith',
-    slug: 'implementing-prisma-for-efficient-database-management'
+    slug: 'implementing-prisma-for-efficient-database-management',
+    content: 'Building a full-stack application with Next.js and Prisma offers a seamless development experience.',
   },
   {
     id: '3',
@@ -23,7 +25,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Explore the best practices for using TypeScript in your React projects to improve code quality and maintainability.',
     date: '2023-05-25',
     author: 'Alice Johnson',
-    slug: 'typescript-best-practices-react'
+    slug: 'typescript-best-practices-react',
+    content: ' Dive deep into TypeScript and discover the best practices for using it with React.',
   },
   {
     id: '4',
@@ -31,7 +34,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Learn how to set up Drizzle for Smooth Data-Handling in Your Next.js App',
     date: '2023-05-30',
     author: 'Bob Williams',
-    slug: 'setting-up-drizzle-for-smooth-data-handling-in-your-nextjs-app'
+    slug: 'setting-up-drizzle-for-smooth-data-handling-in-your-nextjs-app',
+    content: '',
   },
   {
     id: '5',
@@ -39,7 +43,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Discover a simple and efficient way to implement user authentication in your Next.js applications.',
     date: '2023-06-05',
     author: 'Emma Davis',
-    slug: 'quick-guide-adding-user-authentication-with-clerk'
+    slug: 'quick-guide-adding-user-authentication-with-clerk',
+    content: 'Add user authentication to your Next.js app using Clerk. Learn how to set up sign-up, sign-in, and protected routes.',
   },
   {
     id: '6',
@@ -47,7 +52,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Learn the basics of GraphQL and how to integrate it with your Next.js applications for efficient data fetching.',
     date: '2023-06-10',
     author: 'Michael Brown',
-    slug: 'introduction-graphql-nextjs'
+    slug: 'introduction-graphql-nextjs',
+    content: 'GraphQL is a powerful query language for APIs that can be seamlessly integrated with Next.js. Lets explore the basics of using GraphQL in a Next.js application',
   },
   {
     id: '7',
@@ -55,7 +61,8 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Explore how to leverage serverless functions in your Next.js applications deployed on Vercel.',
     date: '2023-06-15',
     author: 'Sarah Lee',
-    slug: 'serverless-functions-vercel-nextjs'
+    slug: 'serverless-functions-vercel-nextjs',
+    content: 'Serverless functions are a powerful feature of Next.js when deployed on Vercel.',
   },
   {
     id: '8',
@@ -63,7 +70,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Compare and contrast the Context API and Redux for state management in React applications.',
     date: '2023-06-20',
     author: 'David Wilson',
-    slug: 'state-management-react-context-redux'
+    slug: 'state-management-react-context-redux',
+    content: 'State management is a crucial aspect of React applications. Two popular options are the built-in Context API and the Redux library.'
   }
 ];
-

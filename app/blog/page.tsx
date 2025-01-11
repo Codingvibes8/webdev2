@@ -1,17 +1,26 @@
-import { blogPosts } from '../../data/blogPosts';
 import BlogPost from '../components/BlogPost';
+import Layout from '@/components/Layout';
+import { BlogPost as BlogPostType } from '@/types/blog';
 
+async function getPosts() {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/posts`, { cache: 'no-store' });
+    if (!res.ok) {
+        throw new Error('Failed to fetch posts');
+    }
+    return res.json();
+}
 
-export default function AllBlogPosts() {
+export default async function AllBlogPosts() {
+    const posts = await getPosts();
+
     return (
-        <div className="px-10 md:px-20 lg:px-32 py-8">
+        <Layout>
             <h1 className="text-4xl font-bold mb-8 text-gray-800">All Blog Posts</h1>
             <div className="grid gap-8 md:grid-cols-2">
-                {blogPosts.map((post) => (
+                {posts.map((post: BlogPostType) => (
                     <BlogPost key={post.id} post={post} />
                 ))}
             </div>
-        </div>
+        </Layout>
     );
 }
-
