@@ -1,21 +1,21 @@
-import { BlogPost } from '../types/blog';
+import { BlogPost } from '@/types/blog';
 
 export const blogPosts: BlogPost[] = [
   {
     id: '1',
-    title: 'Getting Started with Next.js 13',
-    excerpt: 'Learn how to set up your first Next.js 13 project with App Router and TypeScript.',
+    title: 'Getting Started with Next.js 15',
+    excerpt: 'Learn how to set up your first Next.js 15 project with App Router and TypeScript.',
     date: '2023-05-15',
     author: 'Jane Doe',
     slug: 'getting-started-nextjs-13'
   },
   {
     id: '2',
-    title: 'Mastering Tailwind CSS',
-    excerpt: 'Dive deep into Tailwind CSS and learn how to create beautiful, responsive designs quickly.',
+    title: 'Implementing Prisma for Efficient Database Management',
+    excerpt: 'Dive deep into Prisma and learn how to manage your database.',
     date: '2023-05-20',
     author: 'John Smith',
-    slug: 'mastering-tailwind-css'
+    slug: 'implementing-prisma-for-efficient-database-management'
   },
   {
     id: '3',
@@ -27,19 +27,19 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: '4',
-    title: 'Building a Full-Stack App with Next.js and Prisma',
-    excerpt: 'Learn how to create a full-stack application using Next.js for the frontend and Prisma for the backend.',
+    title: 'Setting Up Drizzle for Smooth Data-Handling in Your Next.js App',
+    excerpt: 'Learn how to set up Drizzle for Smooth Data-Handling in Your Next.js App',
     date: '2023-05-30',
     author: 'Bob Williams',
-    slug: 'fullstack-app-nextjs-prisma'
+    slug: 'setting-up-drizzle-for-smooth-data-handling-in-your-nextjs-app'
   },
   {
     id: '5',
-    title: 'Optimizing Performance in React Applications',
-    excerpt: 'Discover techniques and best practices for optimizing the performance of your React applications.',
+    title: 'Quick Guide to Adding User Authentication with Clerk',
+    excerpt: 'Discover a simple and efficient way to implement user authentication in your Next.js applications.',
     date: '2023-06-05',
     author: 'Emma Davis',
-    slug: 'optimizing-performance-react'
+    slug: 'quick-guide-adding-user-authentication-with-clerk'
   },
   {
     id: '6',
